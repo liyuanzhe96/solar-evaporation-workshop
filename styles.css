@@ -18,6 +18,9 @@ main {
   margin: auto;
   background: white;
 }
+h1 {
+  color:white;
+}
 h2 {
   color: #004080;
 }
