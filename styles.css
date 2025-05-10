@@ -33,3 +33,29 @@ footer {
 a {
   color: #004080;
 }
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.more-info {
+  margin-top: 0.8rem;
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.4em 0.8em;
+  background-color: #1a3c6c;
+  color: white;
+  border-radius: 6px;
+  font-size: 0.9em;
+  transition: background-color 0.3s ease;
+}
+.more-info:hover {
+  background-color: #305d96;
+}
+
