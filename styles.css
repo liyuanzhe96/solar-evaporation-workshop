@@ -33,29 +33,39 @@ footer {
 a {
   color: #004080;
 }
-.card {
-  background: white;
-  border-radius: 12px;
-  padding: 1rem;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  text-align: center;
+.speaker-list {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+}
+
+.speaker-row {
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding: 0.5em 0;
+  font-size: 1rem;
 }
 
-.more-info {
-  margin-top: 0.8rem;
-  display: inline-block;
+.speaker-row .name {
+  flex: 1;
+  font-weight: bold;
+}
+
+.speaker-row .affiliation {
+  flex: 2;
+  color: #444;
+  padding-left: 1em;
+}
+
+.speaker-row .more-info {
+  flex: 1;
+  text-align: right;
+  color: #1a3c6c;
   text-decoration: none;
-  padding: 0.4em 0.8em;
-  background-color: #1a3c6c;
-  color: white;
-  border-radius: 6px;
-  font-size: 0.9em;
-  transition: background-color 0.3s ease;
-}
-.more-info:hover {
-  background-color: #305d96;
 }
 
+.speaker-row .more-info:hover {
+  text-decoration: underline;
+}
