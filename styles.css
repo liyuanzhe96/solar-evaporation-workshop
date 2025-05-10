@@ -7,9 +7,9 @@ body {
   color: #333;
 }
 header {
-  background: #4b81e5;
+  background: transparent;
   color: white;
-  padding: 2em;
+  padding: 1em;
   text-align: center;
 }
 main {
